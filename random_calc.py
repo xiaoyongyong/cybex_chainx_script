@@ -10,7 +10,7 @@ from bson import json_util
 from bson.objectid import ObjectId
 import os, time, random
 
-is_debugging = True
+is_debugging = Flase
 logging.basicConfig(level=logging.DEBUG,
                 format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                 datefmt='%a, %d %b %Y %H:%M:%S',
